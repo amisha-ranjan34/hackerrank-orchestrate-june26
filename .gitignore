@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+.env.*
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+code/outputs/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
